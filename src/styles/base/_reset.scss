@@ -114,11 +114,16 @@ body {
 
 html,
 body,
-#root {
+.main {
   height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.main {
+  max-width: 90%;
+  margin: 0 auto;
 }
